@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Grommet, Box, Text } from 'grommet';
+import { Grommet, Box, Text, Image } from 'grommet';
+import { back } from './assets/back.png'
 
 class App extends Component {
 
@@ -11,8 +12,8 @@ class App extends Component {
 
     return (
       <Grommet theme={theme}>
-        <Box align="center" justify="center" height="100vh">
-          <Text>This page isn't ready yet! Check back soon.</Text>
+        <Box height="100vh" align="center" justify="center">
+          <Text>This site is under construction. Check back soon!</Text>
         </Box>
       </Grommet>
     );
