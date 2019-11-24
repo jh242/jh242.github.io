@@ -46,18 +46,18 @@ class App extends Component {
             </Box>
             <Box>
               <Heading color="white" size="100px" margin={{ left: "medium", top: "medium", bottom: "0px" }}>Jack Hu</Heading>
-              <Text color="white" margin={{ left: "medium" }}>This page is a work in progress. Scroll down for some important links!</Text>
+              <Text color="white" margin={{ left: "medium", right: "medium" }}>This page is a work in progress. Scroll down for some important links!</Text>
             </Box>
           </Stack>
           <Box elevation="large" direction="row" justify="center" gap="large" pad="medium">
             <Anchor href="https://www.linkedin.com/in/jackhu242/" target="_blank">
-              <LinkedinOption size="xlarge" />
+              <LinkedinOption size="large" />
             </Anchor>
             <Anchor href="https://www.github.com/jh242/" target="_blank">
-              <Github size="xlarge" />
+              <Github size="large" />
             </Anchor>
             <Anchor href={resume} target="_blank">
-              <DocumentText size="xlarge" />
+              <DocumentText size="large" />
             </Anchor>
           </Box>
         </Box>
