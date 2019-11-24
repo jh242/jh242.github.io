@@ -28,10 +28,10 @@ class App extends Component {
               <Particles params={{
                 "particles": {
                   "number": {
-                    "value": 50
+                    "value": 200
                   },
                   "size": {
-                    "value": 3
+                    "value": 0
                   }
                 },
                 "interactivity": {
