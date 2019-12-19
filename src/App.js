@@ -10,7 +10,7 @@ class App extends Component {
 
       global: {
         font: {
-          family: 'Poppins',
+          family: 'Assistant',
           size: '18px',
           height: '20px',
           color: 'white'
@@ -46,10 +46,10 @@ class App extends Component {
             </Box>
             <Box>
               <Heading color="white" size="100px" margin={{ left: "medium", top: "medium", bottom: "0px" }}>Jack Hu</Heading>
-              <Text color="white" margin={{ left: "medium", right: "medium" }}>This page is a work in progress. Scroll down for some important links!</Text>
+              <Text color="white" margin={{ left: "medium", right: "medium" }}>Professional. Fun-loving. At the same time.</Text>
             </Box>
           </Stack>
-          <Box elevation="large" direction="row" justify="center" gap="large" pad="medium">
+          <Box elevation="medium" direction="row" justify="center" gap="large" pad="medium">
             <Anchor href="https://www.linkedin.com/in/jackhu242/" target="_blank">
               <LinkedinOption size="large" />
             </Anchor>
@@ -59,6 +59,17 @@ class App extends Component {
             <Anchor href={resume} target="_blank">
               <DocumentText size="large" />
             </Anchor>
+          </Box>
+          <Box margin={{ left: "xlarge", right: "xlarge" }}>
+            <Heading>A bit more about me.</Heading>
+            <Box>
+              <Text margin={{ bottom: "xlarge" }}>Hi! Thanks for checking out my personal page.
+              I'm currently a student studying Software Engineering at the University of Waterloo.
+              In my spare time, I like to cook, play the piano, or play a few rounds of whatever game I'm into at the time.
+              I'm interested in machine learning and data analysis, along with full stack web/mobile development. Check out what I've been working on at my GitHub!
+              This page is still a work in progress.
+            </Text>
+            </Box>
           </Box>
         </Box>
       </Grommet>
