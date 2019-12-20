@@ -63,11 +63,12 @@ class App extends Component {
           <Box margin={{ left: "xlarge", right: "xlarge" }}>
             <Heading>A bit more about me.</Heading>
             <Box>
-              <Text margin={{ bottom: "xlarge" }}>Hi! Thanks for checking out my personal page.
-              I'm currently a student studying Software Engineering at the University of Waterloo.
-              In my spare time, I like to cook, play the piano, or play a few rounds of whatever game I'm into at the time.
-              I'm interested in machine learning and data analysis, along with full stack web/mobile development. Check out what I've been working on at my GitHub!
-              This page is still a work in progress.
+              <Text margin={{ bottom: "xlarge" }}>
+                Hi! Thanks for checking out my personal page.
+                I'm currently a student studying Software Engineering at the University of Waterloo.
+                In my spare time, I like to cook, play the piano, or play a few rounds of whatever game I'm into at the time.
+                I'm interested in machine learning and data analysis, along with full stack web/mobile development.
+                Check out what I've been working on at my GitHub! This page is still a work in progress.
             </Text>
             </Box>
           </Box>
