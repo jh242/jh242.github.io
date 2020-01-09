@@ -5,6 +5,25 @@ import Particles from 'react-particles-js';
 import resume from './assets/JackHuResume.pdf';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { width: 0, height: 0 };
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+  }
+
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+
+  updateWindowDimensions() {
+    this.setState({ width: window.innerWidth, height: window.innerHeight });
+  }
+
   render() {
     const theme = {
 
@@ -19,30 +38,32 @@ class App extends Component {
 
     }
 
+    const particlesParams = {
+      "particles": {
+        "number": {
+          "value": ((this.state.width * this.state.height) / 13824)
+        },
+        "size": {
+          "value": 0
+        }
+      },
+      "interactivity": {
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "repulse"
+          }
+        }
+      }
+    }
+
     return (
       <Grommet theme={theme}>
         <Box overflow="hidden">
           <Stack anchor="top-left">
 
             <Box height='100vh' align='center' justify='center' background="#0f2026">
-              <Particles params={{
-                "particles": {
-                  "number": {
-                    "value": 200
-                  },
-                  "size": {
-                    "value": 0
-                  }
-                },
-                "interactivity": {
-                  "events": {
-                    "onhover": {
-                      "enable": true,
-                      "mode": "repulse"
-                    }
-                  }
-                }
-              }} width="100vw" height="100vh" />
+              <Particles params={particlesParams} width="100vw" height="100vh" />
             </Box>
             <Box>
               <Heading color="white" size="100px" margin={{ left: "medium", top: "medium", bottom: "0px" }}>Jack Hu</Heading>
