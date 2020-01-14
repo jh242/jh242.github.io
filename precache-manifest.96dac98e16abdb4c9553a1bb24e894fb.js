@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5b904b279be1214f76cbd182338259ec",
+    "revision": "2a24d6aa00d1171404e6dee10c1adc6b",
     "url": "/jh242.github.io/index.html"
   },
   {
-    "revision": "9ccd313329dc19632f14",
+    "revision": "3763d774726d9e249a5b",
     "url": "/jh242.github.io/static/css/main.498d002a.chunk.css"
   },
   {
@@ -12,15 +12,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jh242.github.io/static/js/2.f39e8cc6.chunk.js"
   },
   {
-    "revision": "9ccd313329dc19632f14",
-    "url": "/jh242.github.io/static/js/main.e27aef94.chunk.js"
+    "revision": "3763d774726d9e249a5b",
+    "url": "/jh242.github.io/static/js/main.313ce467.chunk.js"
   },
   {
     "revision": "efd7ca28457aca6caeb9",
     "url": "/jh242.github.io/static/js/runtime-main.4f7f38b0.js"
   },
   {
-    "revision": "1eabd083547c74fa2a21468e632351a1",
-    "url": "/jh242.github.io/static/media/JackHuResume.1eabd083.pdf"
+    "revision": "185685475509d996c85106dc7229908f",
+    "url": "/jh242.github.io/static/media/JackHuResume.18568547.pdf"
   }
 ]);
