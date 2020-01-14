@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Grommet, Stack, Box, Heading, Text, Anchor } from 'grommet'
 import { LinkedinOption, Github, DocumentText } from 'grommet-icons';
 import Particles from 'react-particles-js';
+import Portfolio from './components/Portfolio';
 import resume from './assets/JackHuResume.pdf';
 
 class App extends Component {
@@ -60,14 +61,14 @@ class App extends Component {
     return (
       <Grommet theme={theme}>
         <Box overflow="hidden">
-          <Stack anchor="top-left">
+          <Stack anchor="bottom-left">
 
             <Box height='100vh' align='center' justify='center' background="#0f2026">
               <Particles params={particlesParams} width="100vw" height="100vh" />
             </Box>
-            <Box>
-              <Heading color="white" size="100px" margin={{ left: "medium", top: "medium", bottom: "0px" }}>Jack Hu</Heading>
-              <Text color="white" margin={{ left: "medium", right: "medium" }}>Professional. Fun-loving. At the same time.</Text>
+            <Box margin={{ vertical: "100px", left: "medium" }}>
+              <Heading color="white" size="100px" margin={{ bottom: "0px" }}>Jack Hu</Heading>
+              <Text color="white">Professional. Fun-loving. At the same time.</Text>
             </Box>
           </Stack>
           <Box elevation="medium" direction="row" justify="center" gap="large" pad="medium">
@@ -93,6 +94,7 @@ class App extends Component {
             </Text>
             </Box>
           </Box>
+          <Portfolio />
         </Box>
       </Grommet>
     )
