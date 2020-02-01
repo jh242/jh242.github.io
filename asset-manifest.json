@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jh242.github.io/static/css/main.becc42ba.chunk.css",
+    "main.css": "/jh242.github.io/static/css/main.425538bd.chunk.css",
     "main.js": "/jh242.github.io/static/js/main.e78717b6.chunk.js",
     "main.js.map": "/jh242.github.io/static/js/main.e78717b6.chunk.js.map",
     "runtime-main.js": "/jh242.github.io/static/js/runtime-main.4f7f38b0.js",
@@ -8,9 +8,9 @@
     "static/js/2.ea579ac0.chunk.js": "/jh242.github.io/static/js/2.ea579ac0.chunk.js",
     "static/js/2.ea579ac0.chunk.js.map": "/jh242.github.io/static/js/2.ea579ac0.chunk.js.map",
     "index.html": "/jh242.github.io/index.html",
-    "precache-manifest.4c2bef1cfbc981b9d0bc48351f48b96c.js": "/jh242.github.io/precache-manifest.4c2bef1cfbc981b9d0bc48351f48b96c.js",
+    "precache-manifest.a83a23b3d3947b3f18cc958c4dd0e057.js": "/jh242.github.io/precache-manifest.a83a23b3d3947b3f18cc958c4dd0e057.js",
     "service-worker.js": "/jh242.github.io/service-worker.js",
-    "static/css/main.becc42ba.chunk.css.map": "/jh242.github.io/static/css/main.becc42ba.chunk.css.map",
+    "static/css/main.425538bd.chunk.css.map": "/jh242.github.io/static/css/main.425538bd.chunk.css.map",
     "static/media/JackHuResume.pdf": "/jh242.github.io/static/media/JackHuResume.02569f51.pdf",
     "static/media/down.svg": "/jh242.github.io/static/media/down.399ce17b.svg",
     "static/media/github.svg": "/jh242.github.io/static/media/github.0e6e51cc.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.4f7f38b0.js",
     "static/js/2.ea579ac0.chunk.js",
-    "static/css/main.becc42ba.chunk.css",
+    "static/css/main.425538bd.chunk.css",
     "static/js/main.e78717b6.chunk.js"
   ]
 }
