@@ -80,11 +80,16 @@ class App extends Component {
     return (
       <div className="App">
         <this.IntroWindow width={width} height={height} />
-        <div className="bio">
-          <div>
-            <h1>More about me.</h1>
-            <p></p>
+        <div style={{ display: "flex", paddingInline: 50 }}>
+          <div className="Bio">
+            <h2>More about me.</h2>
+            <p>Hi! Thanks for checking out my personal page.
+                I'm currently a student studying Software Engineering at the University of Waterloo.
+                In my spare time, I like to cook, play the piano, or play a few rounds of whatever game I'm into at the time.
+                I'm interested in machine learning and data analysis, along with full stack web/mobile development.
+                Check out what I've been working on at my GitHub! This page is still a work in progress.</p>
           </div>
+          <div style={{ backgroundColor: "white", width: 400, height: 400 }}></div>
         </div>
       </div>
     );
