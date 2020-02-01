@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "272de47f0827525e5bb4db5259b7df0d",
+    "revision": "4d4e5248866e9b0df4c5d4e326a74433",
     "url": "/jh242.github.io/index.html"
   },
   {
-    "revision": "8ad581ff105b5e0a9f8f",
-    "url": "/jh242.github.io/static/css/main.ba5aa4e2.chunk.css"
+    "revision": "5ae90c1fa6453c2e84b6",
+    "url": "/jh242.github.io/static/css/main.becc42ba.chunk.css"
   },
   {
-    "revision": "cf9f73e5a9386e541c54",
-    "url": "/jh242.github.io/static/js/2.c1faa663.chunk.js"
+    "revision": "fa8ead2f1941e9be18bd",
+    "url": "/jh242.github.io/static/js/2.ea579ac0.chunk.js"
   },
   {
-    "revision": "8ad581ff105b5e0a9f8f",
-    "url": "/jh242.github.io/static/js/main.0874484c.chunk.js"
+    "revision": "5ae90c1fa6453c2e84b6",
+    "url": "/jh242.github.io/static/js/main.e78717b6.chunk.js"
   },
   {
     "revision": "efd7ca28457aca6caeb9",
@@ -22,10 +22,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "02569f5179c5a267733d381f1d80e1b5",
     "url": "/jh242.github.io/static/media/JackHuResume.02569f51.pdf"
-  },
-  {
-    "revision": "d09549c1ab4a5947a007561521e45da3",
-    "url": "/jh242.github.io/static/media/SFProDisplay.d09549c1.ttf"
   },
   {
     "revision": "399ce17bbaea3f780d166ad45dc89530",
