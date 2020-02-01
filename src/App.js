@@ -54,7 +54,7 @@ class App extends Component {
         <motion.div className="Terminal" initial={{ opacity: 0 }} animate={windowControls}>
           <div>
             <motion.h1 initial={{ opacity: 0 }} animate={textControls}>Jack Hu</motion.h1>
-            <motion.p initial={{ opacity: 0 }} animate={textControls}>Professional. Fun-loving. All at the same time.</motion.p>
+            <motion.p initial={{ opacity: 0 }} animate={textControls}>Professional. Fun-loving. All at the same time. WIP.</motion.p>
           </div>
           <div className="Logos">
             <a href="https://www.linkedin.com/in/jackhu242">
@@ -68,7 +68,7 @@ class App extends Component {
             </a>
           </div>
         </motion.div>
-        <motion.img src={down} animate={{ y: [0, 10, 0] }} transition={{ ease: "easeInOut", loop: "Infinity", duration: 1 }} />
+        {/*<motion.img src={down} animate={{ y: [0, 10, 0] }} transition={{ ease: "easeInOut", loop: "Infinity", duration: 1 }} />*/}
       </div>
     );
   }
