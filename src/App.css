@@ -1,0 +1,27 @@
+/*BG: #111111 BOX: #1E1E1E*/
+
+h1 {
+    font-size: 100px;
+    margin: 0px;
+}
+
+body {
+    background-color: #111111;
+    color: whitesmoke;
+    font-family: 'SanFrancisco'
+}
+
+.Intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.Terminal{
+    border-radius: 20px;
+    background-color: #1e1e1e;
+    text-align: left;
+    padding: 20px;
+}
