@@ -1,18 +1,24 @@
-/*BG: #111111 BOX: #1E1E1E*/
-
 h1 {
     font-size: 80px;
     margin: 0px;
 }
 
 h2{
-    font-size: 30px
+    font-size: 40px;
 }
 
 body {
     background-color: #151515;
     color: whitesmoke;
     font-family: 'San Francisco';
+    font-size: 18px;
+
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Intro {
@@ -40,9 +46,10 @@ body {
     align-self: center;
     align-items: center;
     justify-content: space-evenly;
-    width: 20vw;
+    width: 50vw;
 }
 
 .Bio{
-    
+    flex: 1;
+    padding: 20px;
 }

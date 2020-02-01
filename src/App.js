@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { motion, useAnimation } from 'framer-motion';
+import { motion, useAnimation, motionValue, useTransform } from 'framer-motion';
 import './App.css';
 import resume from './assets/JackHuResume.pdf';
 import github from './assets/icons/github.svg';
@@ -68,7 +68,7 @@ class App extends Component {
             </a>
           </div>
         </motion.div>
-        {/*<motion.img src={down} animate={{ y: [0, 10, 0] }} transition={{ ease: "easeInOut", loop: "Infinity", duration: 1 }} />*/}
+        <motion.img src={down} animate={{ y: [0, 10, 0] }} transition={{ ease: "easeInOut", loop: "Infinity", duration: 1 }} />
       </div>
     );
   }
@@ -80,18 +80,18 @@ class App extends Component {
     return (
       <div className="App">
         <this.IntroWindow width={width} height={height} />
-        <div style={{ display: "flex", paddingInline: 50 }}>
+        <div style={{ display: "flex", justifyContent: "space-around", alignItems: "center", flexDirection: width < 800 ? "column" : "row", maxWidth: width / 1.5, height: "100vh" }}>
           <div className="Bio">
-            <h2>More about me.</h2>
-            <p>Hi! Thanks for checking out my personal page.
+            <motion.h2>More about me.</motion.h2>
+            <motion.p>Hi! Thanks for checking out my personal page.
                 I'm currently a student studying Software Engineering at the University of Waterloo.
                 In my spare time, I like to cook, play the piano, or play a few rounds of whatever game I'm into at the time.
                 I'm interested in machine learning and data analysis, along with full stack web/mobile development.
-                Check out what I've been working on at my GitHub! This page is still a work in progress.</p>
+                Check out what I've been working on at my GitHub! This page is still a work in progress.</motion.p>
           </div>
-          <div style={{ backgroundColor: "white", width: 400, height: 400 }}></div>
+          <div style={{ backgroundColor: "white", maxWidth: 400, height: 400, flex: 1, borderRadius: 20, margin: 20 }}></div>
         </div>
-      </div>
+      </div >
     );
   }
 }
