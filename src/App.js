@@ -80,6 +80,12 @@ class App extends Component {
     return (
       <div className="App">
         <this.IntroWindow width={width} height={height} />
+        <div className="bio">
+          <div>
+            <h1>More about me.</h1>
+            <p></p>
+          </div>
+        </div>
       </div>
     );
   }
