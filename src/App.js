@@ -5,6 +5,7 @@ import resume from './assets/JackHuResume.pdf';
 import github from './assets/icons/github.svg';
 import linkedin from './assets/icons/linkedin.svg';
 import profile from './assets/icons/profile.svg';
+import down from './assets/icons/down.svg';
 
 class App extends Component {
 
@@ -67,6 +68,7 @@ class App extends Component {
             </a>
           </div>
         </motion.div>
+        <motion.img src={down} animate={{ y: [0, 10, 0] }} transition={{ ease: "easeInOut", loop: "Infinity", duration: 1 }} />
       </div>
     );
   }
