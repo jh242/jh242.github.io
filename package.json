@@ -4,17 +4,14 @@
   "private": true,
   "homepage": "https://jh242.github.io/jh242.github.io",
   "dependencies": {
+    "framer-motion": "^1.8.3",
     "gh-pages": "^2.1.1",
-    "grommet": "^2.8.0",
-    "grommet-icons": "^4.4.0",
     "grommet-styles": "^0.2.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-particles-js": "^2.7.0",
     "react-player": "^1.14.2",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0",
-    "styled-components": "^4.4.1"
+    "react-scripts": "3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
