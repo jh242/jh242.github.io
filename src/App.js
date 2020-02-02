@@ -1,11 +1,17 @@
+//Component imports
 import React, { Component } from 'react';
 import { motion, useAnimation, motionValue, useTransform } from 'framer-motion';
+
+//Give it some style!
 import './App.css';
+
+//Asset imports
 import resume from './assets/JackHuResume.pdf';
 import github from './assets/icons/github.svg';
 import linkedin from './assets/icons/linkedin.svg';
 import profile from './assets/icons/profile.svg';
 import down from './assets/icons/down.svg';
+import me from './assets/me.jpg';
 
 class App extends Component {
 
@@ -60,7 +66,7 @@ class App extends Component {
             <a href="https://www.linkedin.com/in/jackhu242">
               <motion.img src={linkedin} initial={{ opacity: 0, width: 50, height: 50 }} animate={logoControls} />
             </a>
-            <a href="https://www.github.com/jackhu.io">
+            <a href="https://www.github.com/jh242">
               <motion.img src={github} initial={{ opacity: 0, width: 50, height: 50 }} animate={logoControls} />
             </a>
             <a href={resume}>
@@ -89,9 +95,9 @@ class App extends Component {
                 I'm interested in machine learning and data analysis, along with full stack web/mobile development.
                 Check out what I've been working on at my GitHub! This page is still a work in progress.</motion.p>
           </div>
-          <div style={{ backgroundColor: "white", maxWidth: 400, height: 400, flex: 1, borderRadius: 20, margin: 20 }}></div>
+          <motion.img style={{ maxWidth: 600, flex: 1, borderRadius: 20, margin: 20, resize: "cover" }} src={me} />
         </div>
-      </div >
+      </div>
     );
   }
 }
