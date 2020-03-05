@@ -31,7 +31,11 @@ class App extends Component {
   }
 
   updateWindowDimensions() {
-    this.setState({ width: window.innerWidth, height: window.innerHeight });
+    let dimensions = {
+      width: window.innerWidth
+    };
+    dimensions.height = window.innerHeight > 600 ? window.innerHeight : 600;
+    this.setState(dimensions);
   }
 
   IntroWindow = (props) => {
@@ -86,7 +90,7 @@ class App extends Component {
     return (
       <div className="App">
         <this.IntroWindow width={width} height={height} />
-        <div style={{ display: "flex", justifyContent: "space-around", alignItems: "center", flexDirection: width < 800 ? "column" : "row", maxWidth: width / 1.5, height: "100vh" }}>
+        <div style={{ display: "flex", justifyContent: "space-around", alignItems: "center", flexDirection: width < 1300 ? "column" : "row", maxWidth: width / 1.5, height: height }}>
           <div className="Bio">
             <motion.h2>More about me.</motion.h2>
             <motion.p>Hi! Thanks for checking out my personal page.
