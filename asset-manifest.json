@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/jh242.github.io/static/css/main.95ad4559.chunk.css",
-    "main.js": "/jh242.github.io/static/js/main.cce4597b.chunk.js",
-    "main.js.map": "/jh242.github.io/static/js/main.cce4597b.chunk.js.map",
-    "runtime-main.js": "/jh242.github.io/static/js/runtime-main.262be8f8.js",
-    "runtime-main.js.map": "/jh242.github.io/static/js/runtime-main.262be8f8.js.map",
-    "static/js/2.8dc53d15.chunk.js": "/jh242.github.io/static/js/2.8dc53d15.chunk.js",
-    "static/js/2.8dc53d15.chunk.js.map": "/jh242.github.io/static/js/2.8dc53d15.chunk.js.map",
-    "index.html": "/jh242.github.io/index.html",
-    "precache-manifest.b4d72c7d294398db8178ff7af715293f.js": "/jh242.github.io/precache-manifest.b4d72c7d294398db8178ff7af715293f.js",
-    "service-worker.js": "/jh242.github.io/service-worker.js",
-    "static/css/main.95ad4559.chunk.css.map": "/jh242.github.io/static/css/main.95ad4559.chunk.css.map",
-    "static/media/JackHuResume.pdf": "/jh242.github.io/static/media/JackHuResume.b1bab688.pdf",
-    "static/media/down.svg": "/jh242.github.io/static/media/down.399ce17b.svg",
-    "static/media/github.svg": "/jh242.github.io/static/media/github.0e6e51cc.svg",
-    "static/media/linkedin.svg": "/jh242.github.io/static/media/linkedin.19e539a5.svg",
-    "static/media/me.jpg": "/jh242.github.io/static/media/me.e3922b03.jpg",
-    "static/media/profile.svg": "/jh242.github.io/static/media/profile.5aceb5ae.svg"
+    "main.css": "/static/css/main.95ad4559.chunk.css",
+    "main.js": "/static/js/main.589647e4.chunk.js",
+    "main.js.map": "/static/js/main.589647e4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.05c5fe79.js",
+    "runtime-main.js.map": "/static/js/runtime-main.05c5fe79.js.map",
+    "static/js/2.8dc53d15.chunk.js": "/static/js/2.8dc53d15.chunk.js",
+    "static/js/2.8dc53d15.chunk.js.map": "/static/js/2.8dc53d15.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a90ba032666f2b1651931b8fff5e6046.js": "/precache-manifest.a90ba032666f2b1651931b8fff5e6046.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.95ad4559.chunk.css.map": "/static/css/main.95ad4559.chunk.css.map",
+    "static/media/JackHuResume.pdf": "/static/media/JackHuResume.b1bab688.pdf",
+    "static/media/down.svg": "/static/media/down.399ce17b.svg",
+    "static/media/github.svg": "/static/media/github.0e6e51cc.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.19e539a5.svg",
+    "static/media/me.jpg": "/static/media/me.e3922b03.jpg",
+    "static/media/profile.svg": "/static/media/profile.5aceb5ae.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.262be8f8.js",
+    "static/js/runtime-main.05c5fe79.js",
     "static/js/2.8dc53d15.chunk.js",
     "static/css/main.95ad4559.chunk.css",
-    "static/js/main.cce4597b.chunk.js"
+    "static/js/main.589647e4.chunk.js"
   ]
 }
