@@ -12,7 +12,7 @@ export default function Bio() {
   return (
     <div className={width < 1350 ? 'bio-mobile' : 'bio'}>
       <div className="bio-text">
-        <motion.h2>More about me.</motion.h2>
+        <motion.h2>More about me?</motion.h2>
         <motion.p>
           Hi! Thanks for checking out my personal page.
           I&apos;m currently a student studying Software Engineering at the University of Waterloo.
