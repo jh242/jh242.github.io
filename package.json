@@ -1,8 +1,8 @@
 {
   "name": "website-sequel",
-  "version": "0.1.0",
+  "version": "0.9",
   "private": true,
-  "homepage": "https://jh242.github.io/jh242.github.io",
+  "homepage": "https://jackhu.io",
   "dependencies": {
     "eslint": "6.8.0",
     "framer-motion": "^1.8.3",
