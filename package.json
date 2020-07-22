@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://jh242.github.io/jh242.github.io",
   "dependencies": {
+    "eslint": "6.8.0",
     "framer-motion": "^1.8.3",
     "gh-pages": "^2.1.1",
     "react": "^16.11.0",
@@ -21,7 +22,10 @@
     "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "airbnb",
+      "airbnb/hooks"
+    ]
   },
   "browserslist": {
     "production": [
@@ -34,5 +38,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-plugin-import": "2.21.2",
+    "eslint-plugin-jsx-a11y": "6.3.0",
+    "eslint-plugin-react": "7.20.0",
+    "eslint-plugin-react-hooks": "4.0.0"
   }
 }

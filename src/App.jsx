@@ -13,60 +13,28 @@ import profile from './assets/icons/profile.svg';
 import down from './assets/icons/down.svg';
 import me from './assets/me.jpg';
 
-class App extends Component {
+function IntroWindow () {
+  const textControls = useAnimation(), logoControls = useAnimation();
 
-  constructor(props) {
-    super(props);
-    this.state = { width: 0, height: 0 };
-    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
-  }
+  textControls.start({
+    opacity: 1,
+    transition: { delay: 1.2, ease: "easeOut", duration: 1 }
+  });
 
-  componentDidMount() {
-    this.updateWindowDimensions();
-    window.addEventListener('resize', this.updateWindowDimensions);
-  }
+  logoControls.start({
+    opacity: 1,
+    y: 25,
+    transition: { delay: 1.2, ease: "easeOut", duration: 1 }
+  });
 
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.updateWindowDimensions);
-  }
-
-  updateWindowDimensions() {
-    let dimensions = {
-      width: window.innerWidth
-    };
-    dimensions.height = window.innerHeight > 600 ? window.innerHeight : 600;
-    this.setState(dimensions);
-  }
-
-  IntroWindow = (props) => {
-    let { width, height } = props;
-    const windowControls = useAnimation(), textControls = useAnimation(), logoControls = useAnimation();
-    windowControls.start({
-      opacity: 1,
-      width: width / 2,
-      height: height / 2,
-      transition: { ease: "easeOut", duration: 1 }
-    });
-
-    textControls.start({
-      opacity: 1,
-      transition: { delay: 1.2, ease: "easeOut", duration: 1 }
-    });
-
-    logoControls.start({
-      opacity: 1,
-      y: 25,
-      transition: { delay: 1.2, ease: "easeOut", duration: 1 }
-    });
-
-    return (
-      <div className="Intro">
-        <motion.div className="Terminal" initial={{ opacity: 0 }} animate={windowControls}>
-          <div>
-            <motion.h1 initial={{ opacity: 0 }} animate={textControls}>Jack Hu</motion.h1>
-            <motion.p initial={{ opacity: 0 }} animate={textControls}>Professional. Fun-loving. All at the same time. WIP.</motion.p>
-          </div>
-          <div className="Logos">
+  return (
+    <div className="intro">
+        <div style={{alignSelf: 'flex-start'}}>
+          <motion.h1 initial={{ opacity: 0 }} animate={textControls}>Jack Hu</motion.h1>
+          <motion.p initial={{ opacity: 0 }} animate={textControls}>Professional. Fun-loving. All at the same time. WIP.</motion.p>
+        </div>
+        <div>
+          <div className="logos">
             <a href="https://www.linkedin.com/in/jackhu242">
               <motion.img src={linkedin} initial={{ opacity: 0, width: 50, height: 50 }} animate={logoControls} />
             </a>
@@ -77,21 +45,19 @@ class App extends Component {
               <motion.img src={profile} initial={{ opacity: 0, width: 50, height: 50 }} animate={logoControls} />
             </a>
           </div>
-        </motion.div>
         <motion.img src={down} animate={{ y: [0, 10, 0] }} transition={{ ease: "easeInOut", loop: "Infinity", duration: 1 }} />
       </div>
-    );
-  }
+    </div>
+  );
+}
 
-  render() {
-
-    let { width, height } = this.state;
+function App() {
 
     return (
-      <div className="App">
-        <this.IntroWindow width={width} height={height} />
+      <div className="app">
+        <IntroWindow />
         <div style={{ display: "flex", justifyContent: "space-around", alignItems: "center", flexDirection: width < 1300 ? "column" : "row", maxWidth: width / 1.5, height: height }}>
-          <div className="Bio">
+          <div className="bio">
             <motion.h2>More about me.</motion.h2>
             <motion.p>Hi! Thanks for checking out my personal page.
                 I'm currently a student studying Software Engineering at the University of Waterloo.
@@ -103,7 +69,6 @@ class App extends Component {
         </div>
       </div>
     );
-  }
 }
 
 export default App;
