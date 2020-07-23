@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e27dd185.chunk.css",
+    "main.css": "/static/css/main.5c53d083.chunk.css",
     "main.js": "/static/js/main.068928a5.chunk.js",
     "main.js.map": "/static/js/main.068928a5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.05c5fe79.js",
@@ -8,9 +8,9 @@
     "static/js/2.a1c8e5c8.chunk.js": "/static/js/2.a1c8e5c8.chunk.js",
     "static/js/2.a1c8e5c8.chunk.js.map": "/static/js/2.a1c8e5c8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.57d8aebdfc4b18b0971da4c5f53339bb.js": "/precache-manifest.57d8aebdfc4b18b0971da4c5f53339bb.js",
+    "precache-manifest.f982f8e378aa8d9fb40cdbfd95b54699.js": "/precache-manifest.f982f8e378aa8d9fb40cdbfd95b54699.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e27dd185.chunk.css.map": "/static/css/main.e27dd185.chunk.css.map",
+    "static/css/main.5c53d083.chunk.css.map": "/static/css/main.5c53d083.chunk.css.map",
     "static/media/JackHuResume.pdf": "/static/media/JackHuResume.b1bab688.pdf",
     "static/media/down.svg": "/static/media/down.399ce17b.svg",
     "static/media/github.svg": "/static/media/github.0e6e51cc.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.05c5fe79.js",
     "static/js/2.a1c8e5c8.chunk.js",
-    "static/css/main.e27dd185.chunk.css",
+    "static/css/main.5c53d083.chunk.css",
     "static/js/main.068928a5.chunk.js"
   ]
 }
