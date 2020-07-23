@@ -21,7 +21,7 @@ function Portfolio({ match }) {
   const { id } = match.params;
 
   return (
-    <div style={{ minHeight: '100vh' }}>
+    <div className="portfolio">
       <AnimatePresence>
         <h2>What I&apos;ve worked on:</h2>
         <p>

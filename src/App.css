@@ -34,6 +34,11 @@ body {
     z-index: -1;
 }
 
+.portfolio {
+  min-height: 100vh;
+  width: 80vw;
+}
+
 .intro {
     display: flex;
     flex-direction: column;
@@ -87,7 +92,7 @@ li {
   list-style: none;
   padding: 0;
   margin: 0;
-  width: 95vw;
+  width: 100%;
 }
 
 .card-list {
@@ -229,6 +234,10 @@ p {
     max-width: 50%;
   }
 
+  .portfolio {
+    width: 90vw;
+  }
+
   .bio {
     display: flex;
     flex-direction: column;
@@ -249,6 +258,10 @@ p {
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 50px;
+  }
+
+  .portfolio {
+    width: 90vw;
   }
 
   .bio {

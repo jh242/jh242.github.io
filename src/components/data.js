@@ -6,11 +6,11 @@ const items = [
   },
   {
     id: 'healthdex',
-    titleReplacement: 'HealthDex',
+    title: 'HealthDex',
     details: "Many hospitals across the world still use paper for keeping records. Healthdex provides a seamless way to transition to digital using Google Cloud's DocumentAI. It can scan any healthcare records and convert them, making it easy to search, access, and store patient info long term. This project was created for TOHacks 2020.",
   },
   {
-    id: 'lecturestream',
+    id: 'schola',
     title: 'Schola',
     details: 'This was a project developed for YHack 2019. Schola combines Python-based OpenCV for motion tracking with an Arduino in order to track a professor moving around a lecture hall. Then, this video feed would be streamed with Flask to a web portal with Firebase authentication.',
   },
