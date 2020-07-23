@@ -2,7 +2,7 @@ const items = [
   {
     id: 'spacex',
     title: 'SpaceX Story',
-    details: 'A web app dedicated to all past, present and future SpaceX missions. This is a personal project intended to showcase all of my web development abilities. With a mission to Mars drawing closer and closer, I thought it would be a good idea to make a little website to show people where the company who made it possible has been so far. Built with React/Redux.',
+    details: 'A web app dedicated to all past, present and future SpaceX missions. This is an ever-evolving personal project intended to showcase all of my web development abilities. With a mission to Mars drawing closer and closer, I thought it would be a good idea to make a little website to show people where the company who made it possible has been so far. Built with React/Redux.',
   },
   {
     id: 'healthdex',

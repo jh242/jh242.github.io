@@ -4,11 +4,8 @@ import {
 } from 'framer-motion';
 
 export default function Bio() {
-  // eslint-disable-next-line no-undef
-  const width = document.documentElement.clientWidth;
-
   return (
-    <div className={width < 1350 ? 'bio-mobile' : 'bio'}>
+    <div className="bio">
       <div className="bio-text">
         <motion.h2>More about me:</motion.h2>
         <motion.p>

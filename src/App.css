@@ -1,5 +1,5 @@
 h1 {
-    font-size: 80px;
+    font-size: 150px;
     font-family: 'San Francisco';
     margin: 0px;
 }
@@ -72,16 +72,6 @@ body {
     align-items: center;
     height: 100vh;
     width: auto;
-}
-
-.bio-mobile{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: 95vw;
-    overflow-x: hidden;
 }
 
 .bio-text{
@@ -244,6 +234,16 @@ p {
     max-width: 50%;
   }
 
+  .bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 95vw;
+    overflow-x: hidden;
+  }
+
   .card:nth-child(4n + 1),
   .card:nth-child(4n + 4) {
     flex: 0 0 50%;
@@ -252,6 +252,20 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 95vw;
+    overflow-x: hidden;
+  }
+
   .card {
     flex: 1 0 100%;
     max-width: 100%;
