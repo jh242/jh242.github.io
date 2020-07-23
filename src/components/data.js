@@ -7,7 +7,7 @@ const items = [
   {
     id: 'healthdex',
     titleReplacement: 'HealthDex',
-    details: "Many hospitals across the world still use paper for keeping records. Healthdex provides a seamless way to transition these to a digital landscape using Google Cloud's DocumentAI. It can scan any healthcare records and convert it into organization data, making it easy to search, access, and store patient info long term. This project was created for TOHacks 2020.",
+    details: "Many hospitals across the world still use paper for keeping records. Healthdex provides a seamless way to transition to digital using Google Cloud's DocumentAI. It can scan any healthcare records and convert them, making it easy to search, access, and store patient info long term. This project was created for TOHacks 2020.",
   },
   {
     id: 'lecturestream',
