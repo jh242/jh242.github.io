@@ -7,7 +7,9 @@ import { motion } from 'framer-motion';
 import items from './data';
 
 export default function CardDetails({ id }) {
-  const { title, titleReplacement, details } = items.find((item) => item.id === id);
+  const {
+    title, titleReplacement, details,
+  } = items.find((item) => item.id === id);
 
   return (
     <div>

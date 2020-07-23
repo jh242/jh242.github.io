@@ -163,6 +163,7 @@ li {
 
 .open .card-content {
   height: auto;
+  max-height: 100%;
   max-width: 700px;
   overflow: hidden;
   pointer-events: none;
@@ -267,6 +268,10 @@ p {
 
   .card-content-container.open {
     padding: 10px;
+  }
+
+  .card-content p {
+    font-size: small;
   }
 }
 

@@ -25,7 +25,10 @@ function Portfolio({ match }) {
       <AnimatePresence>
         <h2>What I&apos;ve worked on:</h2>
         <p>
-          Take a look at some of my projects!
+          Find these and more on my
+          {' '}
+          <a style={{ color: 'white' }} href="https://github.com/jh242?tab=repositories" target="_blank" rel="noopener noreferrer">Github</a>
+          !
         </p>
         <List id={id} />
         {id && <CardDetails id={id} key="item" />}
