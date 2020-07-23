@@ -80,6 +80,10 @@ body {
     max-width: 550px;
 }
 
+.title {
+  text-align: center;
+}
+
 .image {
     max-width: 600px;
     border-radius: 20px;
