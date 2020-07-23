@@ -38,26 +38,26 @@ export default function IntroWindow() {
           initial={{ opacity: 0 }}
           animate={textControls}
         >
-          Professional. Fun-loving. All at the same time. WIP.
+          Professional. Fun-loving. All at the same time.
         </motion.p>
       </div>
       <div className="footer">
         <div className="logos">
-          <a href="https://www.linkedin.com/in/jackhu242">
+          <a href="https://www.linkedin.com/in/jackhu242" target="_blank" rel="noopener noreferrer">
             <motion.img
               src={linkedin}
               initial={{ opacity: 0, width: 50, height: 50 }}
               animate={logoControls}
             />
           </a>
-          <a href="https://www.github.com/jh242">
+          <a href="https://www.github.com/jh242" target="_blank" rel="noopener noreferrer">
             <motion.img
               src={github}
               initial={{ opacity: 0, width: 50, height: 50 }}
               animate={logoControls}
             />
           </a>
-          <a href={resume}>
+          <a href={resume} target="_blank" rel="noopener noreferrer">
             <motion.img
               src={profile}
               initial={{ opacity: 0, width: 50, height: 50 }}
