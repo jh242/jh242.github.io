@@ -153,7 +153,6 @@ li {
 
 .open .card-content {
   height: auto;
-  max-height: 100%;
   max-width: 700px;
   overflow: hidden;
   pointer-events: none;
