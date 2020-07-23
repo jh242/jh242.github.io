@@ -40,6 +40,7 @@ body {
 }
 
 .intro {
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,10 +79,6 @@ body {
 .bio-text{
     padding: 20px;
     max-width: 550px;
-}
-
-.title {
-  text-align: center;
 }
 
 .image {
