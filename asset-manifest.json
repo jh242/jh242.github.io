@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.68236809.chunk.css",
-    "main.js": "/static/js/main.8afe8d49.chunk.js",
-    "main.js.map": "/static/js/main.8afe8d49.chunk.js.map",
+    "main.js": "/static/js/main.17fbdde5.chunk.js",
+    "main.js.map": "/static/js/main.17fbdde5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.05c5fe79.js",
     "runtime-main.js.map": "/static/js/runtime-main.05c5fe79.js.map",
     "static/js/2.a1c8e5c8.chunk.js": "/static/js/2.a1c8e5c8.chunk.js",
     "static/js/2.a1c8e5c8.chunk.js.map": "/static/js/2.a1c8e5c8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.97203cc9bbc13e79eaf09d0734bc6e2a.js": "/precache-manifest.97203cc9bbc13e79eaf09d0734bc6e2a.js",
+    "precache-manifest.98c5ad6ae4d8b6ca73e104c81a83fa12.js": "/precache-manifest.98c5ad6ae4d8b6ca73e104c81a83fa12.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.68236809.chunk.css.map": "/static/css/main.68236809.chunk.css.map",
-    "static/media/JackHuResume.pdf": "/static/media/JackHuResume.f2deb70d.pdf",
+    "static/media/JackHuResume.pdf": "/static/media/JackHuResume.3af43a2e.pdf",
     "static/media/down.svg": "/static/media/down.399ce17b.svg",
     "static/media/github.svg": "/static/media/github.0e6e51cc.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.19e539a5.svg",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.05c5fe79.js",
     "static/js/2.a1c8e5c8.chunk.js",
     "static/css/main.68236809.chunk.css",
-    "static/js/main.8afe8d49.chunk.js"
+    "static/js/main.17fbdde5.chunk.js"
   ]
 }
