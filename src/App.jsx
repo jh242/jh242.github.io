@@ -40,7 +40,19 @@ function Portfolio({ match }) {
 function App() {
   return (
     <div className="app">
-      <Particles className="particles" />
+      <Particles
+        className="particles"
+        params={{
+          interactivity: {
+            events: {
+              onhover: {
+                enable: true,
+                mode: 'repulse',
+              },
+            },
+          },
+        }}
+      />
       <IntroWindow />
       <Bio />
       <AnimateSharedLayout>
