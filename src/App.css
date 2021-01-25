@@ -76,6 +76,10 @@ body {
     width: auto;
 }
 
+.bio a {
+  color: white;
+}
+
 .bio-text{
     padding: 20px;
     max-width: 550px;

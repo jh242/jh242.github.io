@@ -14,7 +14,10 @@ export default function Bio() {
           In my spare time, I like to cook, play the piano, or play a few rounds of whatever game
           I&apos;m into at the time. I&apos;m interested in machine learning and data analysis,
           along with full stack web/mobile development. Check out what I&apos;ve been working on
-          at my GitHub!
+          at my
+          {' '}
+          <a href="https://github.com/jh242" target="_blank" rel="noreferrer">Github</a>
+          !
         </motion.p>
       </div>
       <motion.img
