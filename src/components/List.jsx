@@ -4,7 +4,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
-import items from './data';
+import { items } from './data';
 
 function Card({ id, title }) {
   return (

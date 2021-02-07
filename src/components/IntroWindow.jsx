@@ -38,7 +38,7 @@ export default function IntroWindow() {
           initial={{ opacity: 0 }}
           animate={textControls}
         >
-          Professional. Fun-loving. All at the same time.
+          Hi! I&apos;m a Full-Stack Web Developer!
         </motion.p>
       </div>
       <div className="footer">
@@ -48,6 +48,7 @@ export default function IntroWindow() {
               src={linkedin}
               initial={{ opacity: 0, width: 50, height: 50 }}
               animate={logoControls}
+              alt="linkedin"
             />
           </a>
           <a href="https://www.github.com/jh242" target="_blank" rel="noopener noreferrer">
@@ -55,6 +56,7 @@ export default function IntroWindow() {
               src={github}
               initial={{ opacity: 0, width: 50, height: 50 }}
               animate={logoControls}
+              alt="github"
             />
           </a>
           <a href={resume} target="_blank" rel="noopener noreferrer">
@@ -62,6 +64,7 @@ export default function IntroWindow() {
               src={profile}
               initial={{ opacity: 0, width: 50, height: 50 }}
               animate={logoControls}
+              alt="resume"
             />
           </a>
         </div>

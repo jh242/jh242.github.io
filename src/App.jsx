@@ -6,10 +6,7 @@ import Particles from 'react-particles-js';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { AnimateSharedLayout, AnimatePresence } from 'framer-motion';
 import {
-  IntroWindow,
-  Bio,
-  List,
-  CardDetails,
+  IntroWindow, Bio, List, CardDetails, Skills,
 } from './components';
 
 // Give it some style!
@@ -27,7 +24,14 @@ function Portfolio({ match }) {
         <p>
           Find these and more on my
           {' '}
-          <a style={{ color: 'white' }} href="https://github.com/jh242?tab=repositories" target="_blank" rel="noopener noreferrer">Github</a>
+          <a
+            style={{ color: 'white' }}
+            href="https://github.com/jh242?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
           !
         </p>
         <List id={id} />
@@ -55,6 +59,7 @@ function App() {
       />
       <IntroWindow />
       <Bio />
+      <Skills />
       <AnimateSharedLayout>
         <Router>
           <Route path={['/:id', '/']} component={Portfolio} />
