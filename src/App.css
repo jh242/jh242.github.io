@@ -294,8 +294,24 @@ p {
     justify-content: center;
     align-items: center;
     height: auto;
-    width: 95vw;
+    width: 90vw;
     overflow-x: hidden;
+  }
+
+  .bio img {
+    width: 100%;
+  }
+
+  .skills {
+    width: 90vw;
+  }
+
+  .columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
   }
 
   .card {
